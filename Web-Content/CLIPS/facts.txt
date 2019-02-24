@@ -1,0 +1,4 @@
+(deffacts input (personal-data (name nivedita\) (age 27) (nationality Singaporean) (timeInSingapore "Less than 1 year") (currentLocation 766) (travelDate 2018 02 27 0800 MON) (itineraryLength 8) (budget lt20) (interestedRegion Central) (sheltered Indoor) (groupProfile solo)  (specialNeeds N) (familyHasYoungKids N) (familyHasElderly N)  (likeAnimals N)  (meetNewPeople Y)  (interest " heritage")))
+(deffacts itineraryCategories 
+(interestedCategories (category heritage ) (cf 0.8))
+ )

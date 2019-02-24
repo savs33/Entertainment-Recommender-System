@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<title> Boredom Curer </title>
+<link href="formstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body background="fireworks.jpg">
+<div class="container">
+  <h2> Personal Information </h2>
+  <form method="post" action="http://localhost:8080/EntertainmentSystem/TravelManager/personalDetails">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Age">Age</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="age" name="age" placeholder="Your age in years..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="nationality">Nationality</label>
+      </div>
+      <div class="col-75">
+        <select id="nationality" name="nationality">
+          <option value="Singaporean">Singapore</option>
+          <option value="Indian">India</option>
+          <option value="Chinese">China</option>
+          <option value="Malaysian">Malaysia </option>
+          <option value="Indonesian">Indonesia</option>
+          <option value="European">Europe</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="years">If not a singaporean, How many years have you been in Singapore</label>
+      </div>
+      <div class="col-75">
+     	<select id="years" name="years">
+          <option value="lt1"> Less than 1 year</option>
+          <option value="bt1_3">1 to 3 years</option>
+          <option value="gt3">More than 3 years</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Area">Pincode of current Singapore location</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="area" name="area" placeholder="Pincode of location in Singapore..">
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+  
+</body>
+</html>

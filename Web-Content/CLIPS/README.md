@@ -1,1 +1,1 @@
-Rule Baed Systems
+Java CLIPS Interface should be used 
